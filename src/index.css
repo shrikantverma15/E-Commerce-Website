@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.block {
+    height: 200px; /* Fixes height for image container */
+    width: 100%;
+}
+
+.object-cover {
+    object-fit: cover; /* Ensures the image covers the container */
+    height: 100%;
+    width: 100%;
+}
+
+.border-radius-20 {
+    border-radius: 20px; /* Ensures consistent border radius */
+}
+
+.container {
+    max-width: 1200px; /* Ensures container width */
+    margin: 0 auto;
+}
+
